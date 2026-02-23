@@ -173,7 +173,6 @@
 		BDACC7752A6F100D00D0B261 /* TrialNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDACC7742A6F100D00D0B261 /* TrialNotification.swift */; };
 		BDB129F32D077EB3006970A1 /* BookmarkedLocationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB129F22D077EB3006970A1 /* BookmarkedLocationsManager.swift */; };
 		BDB129FA2D08B4DE006970A1 /* BookmarkedLocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB129F82D08B4DE006970A1 /* BookmarkedLocationsView.swift */; };
-		BDB72CB227A9C08500DCC446 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB72CB127A9C08500DCC446 /* StoreKit.framework */; };
 		BDBA46CD2CD2EDD900AB44A0 /* FileProviderReplicatedExtension+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBA46CC2CD2EDD300AB44A0 /* FileProviderReplicatedExtension+Helpers.swift */; };
 		BDBFA30D2728914F00C77798 /* BlinkCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBFA3052728914F00C77798 /* BlinkCode.framework */; };
 		BDBFA3122728914F00C77798 /* BlinkCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBFA3112728914F00C77798 /* BlinkCodeTests.swift */; };
@@ -932,7 +931,6 @@
 		BDACC7742A6F100D00D0B261 /* TrialNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialNotification.swift; sourceTree = "<group>"; };
 		BDB129F22D077EB3006970A1 /* BookmarkedLocationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkedLocationsManager.swift; sourceTree = "<group>"; };
 		BDB129F82D08B4DE006970A1 /* BookmarkedLocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkedLocationsView.swift; sourceTree = "<group>"; };
-		BDB72CB127A9C08500DCC446 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		BDB8BEA726E008190093BF48 /* OwnAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnAlertController.swift; sourceTree = "<group>"; };
 		BDBA46CC2CD2EDD300AB44A0 /* FileProviderReplicatedExtension+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileProviderReplicatedExtension+Helpers.swift"; sourceTree = "<group>"; };
 		BDBFA3052728914F00C77798 /* BlinkCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlinkCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1417,7 +1415,6 @@
 				D22277E12A26115300D4C708 /* BlinkSnippets.framework in Frameworks */,
 				B700AED81DD0F2C200100EBF /* CloudKit.framework in Frameworks */,
 				D2334F0425C1C28F00385378 /* tar.xcframework in Frameworks */,
-				BDB72CB227A9C08500DCC446 /* StoreKit.framework in Frameworks */,
 				D2DC5D4B295DB43D007E2B9D /* RevenueCat in Frameworks */,
 				D2A9B2F7272E6F26009FCBDE /* BlinkCode.framework in Frameworks */,
 				D2334EF225C1C28F00385378 /* files.xcframework in Frameworks */,
@@ -1521,7 +1518,6 @@
 				BDE84C762BB33AB800457391 /* xxd.xcframework */,
 				BDE84C502BB233F100457391 /* bc_ios.xcframework */,
 				D2771510287F0EA200D31F4E /* libbuild_cli.a */,
-				BDB72CB127A9C08500DCC446 /* StoreKit.framework */,
 				D248EC542689EAD7009FD817 /* SSHConfig */,
 				D2334ECF25C1C04700385378 /* awk.xcframework */,
 				D2334F0A25C1C3A000385378 /* OpenSSH.xcframework */,
@@ -2947,13 +2943,13 @@
 								enabled = 1;
 							};
 							com.apple.Keychain = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.iCloud = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -4275,7 +4271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = A2H2CL32AG;
+				DEVELOPMENT_TEAM = 693L542U78;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4336,7 +4332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = A2H2CL32AG;
+				DEVELOPMENT_TEAM = 693L542U78;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5204,7 +5200,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "$(TEAM_ID)";
+				DEVELOPMENT_TEAM = 693L542U78;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -5258,7 +5254,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "$(TEAM_ID)";
+				DEVELOPMENT_TEAM = 693L542U78;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -5295,7 +5291,7 @@
 				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = A2H2CL32AG;
+				DEVELOPMENT_TEAM = 693L542U78;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -5347,7 +5343,7 @@
 				CURRENT_PROJECT_VERSION = 1003;
 				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = A2H2CL32AG;
+				DEVELOPMENT_TEAM = 693L542U78;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = Blink/Info.plist;
@@ -5601,13 +5597,13 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = exactVersion;
+				version = 1.9.0;
 			};
 		};
 		D2A6398728CFA0B90066FD18 /* XCRemoteSwiftPackageReference "SwiftCBOR" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/unrelentingtech/SwiftCBOR";
+			repositoryURL = "https://github.com/valpackett/SwiftCBOR";
 			requirement = {
 				branch = master;
 				kind = branch;
